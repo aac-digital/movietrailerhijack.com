@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+
+@font-face {
+  font-family: 'DinBold';
+  src: url('font/din_condensed_bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('font/din_condensed_bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/din_condensed_bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('font/din_condensed_bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/din_condensed_bold-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+body{
+  background:url(../images/background.jpg);
+  background-size:100% auto;
+  color:#d2d2d2;
+}
+
+h2{
+  color:#f4f4f4;
+  font-size:72px;
+  font-family:'DinBold';
+  font-weight:normal;
+  text-align:right;
+  padding-top:65px;
+  line-height: 62px;
+  padding-right:30px;
+  background-image:url('/images/yellow.png');
+  background-repeat:no-repeat;
+  background-position:top right;
+  height:600px;
+  position:relative;
+  margin:0;
+}
+
+.candel{
+  position: absolute;
+  background-image: url('/images/candel.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 24px;
+  width: 26px;
+  display: block;
+  top: 218px;
+  left: 301px;
+}
+
+
+.container{
+  width:970px;
+  margin:0 auto;
+}
+
+.description.first{
+  margin:156px 0 38px 0;
+}
+
+.description{
+  margin-bottom:40px;
+}
+
+.video-holder{
+  background:black;
+  margin-top:285px;
+}
+
+.video-holder .inner{
+  padding:17px;
+}
+
+.video-js{
+  margin-bottom: 12px;
+}
+
+p.header{
+  font-family: 'Droid Serif', serif;
+  font-weight:bold;
+  font-size:16px;
+  width:275px;
+  text-transform:uppercase;
+  margin-bottom:9px;
+}
+
+p{
+  font-family: 'Droid Serif', serif;
+  font-size:14px;
+  width:275px;
+  margin:0;
+  padding-left: 25px;
+}
+
+
+/* Footer */
+
+.footer{
+  margin:0 auto;
+
+}
+
+.footer-content{
+  width:400px;
+  background-image:url('/images/yellow.png');
+  background-repeat:no-repeat;
+  background-position:top left;
+  height:102px;
+  margin-left:298px;
+}
+
+.footer .logo{
+  background-image:url('/images/amnesty_logo.svg');
+  background-repeat:no-repeat;
+  background-position:center center;
+  height:102px;
+  width:82px;
+  margin-left:50px;
+  display:inline-block;
+  float:left;
+}
+
+.footer .stop-torture{
+  background-image:url('/images/stop_torture.svg');
+  background-repeat:no-repeat;
+  background-position:center center;
+  height:102px;
+  width:112px;
+  margin-left:20px;
+  display:inline-block;
+  float:left;
+}
