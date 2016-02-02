@@ -24,23 +24,23 @@ h2{
   padding-top:65px;
   line-height: 62px;
   padding-right:30px;
-  background-image:url('/images/yellow.png');
+  background-image:url('../images/yellow.png');
   background-repeat:no-repeat;
   background-position:top right;
-  height:600px;
+  height:1000px;
   position:relative;
   margin:0;
 }
 
 .candel{
   position: absolute;
-  background-image: url('/images/candel.svg');
+  background-image: url('../images/candel.svg');
   background-repeat: no-repeat;
   background-position: center center;
   height: 24px;
   width: 26px;
   display: block;
-  top: 218px;
+  top: 387px;
   left: 301px;
 }
 
@@ -51,7 +51,7 @@ h2{
 }
 
 .description.first{
-  margin:156px 0 38px 0;
+  margin: 15px 0 38px 0;
 }
 
 .description{
@@ -60,7 +60,6 @@ h2{
 
 .video-holder{
   background:black;
-  margin-top:285px;
 }
 
 .video-holder .inner{
@@ -88,6 +87,13 @@ p{
   padding-left: 25px;
 }
 
+#intro-video{
+  margin-left: 25px;
+}
+
+.subtitle p{
+  width:100%;
+}
 
 /* Footer */
 
@@ -98,7 +104,7 @@ p{
 
 .footer-content{
   width:400px;
-  background-image:url('/images/yellow.png');
+  background-image:url('../images/yellow.png');
   background-repeat:no-repeat;
   background-position:top left;
   height:102px;
@@ -106,7 +112,7 @@ p{
 }
 
 .footer .logo{
-  background-image:url('/images/amnesty_logo.svg');
+  background-image:url('../images/amnesty_logo.svg');
   background-repeat:no-repeat;
   background-position:center center;
   height:102px;
@@ -117,7 +123,7 @@ p{
 }
 
 .footer .stop-torture{
-  background-image:url('/images/stop_torture.svg');
+  background-image:url('../images/stop_torture.svg');
   background-repeat:no-repeat;
   background-position:center center;
   height:102px;
