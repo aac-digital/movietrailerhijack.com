@@ -15,6 +15,10 @@ body{
   color:#d2d2d2;
 }
 
+.container{
+  margin-top: 25px;
+}
+
 h2{
   color:#f4f4f4;
   font-size:72px;
